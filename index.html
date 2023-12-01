@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marsha's Portfolio</title>
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- box icons link -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@100;300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- header section -->
+    <header>
+        <a href="#" class="logo"><img src="LOGO.png" alt=""></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navlist">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- hero section -->
+    <section class="home" id="home">
+        <div class="hero-text">
+            <h3>Hello I'm</h3>
+            <h1>Marsha Diva Nathania</h1>
+            <h4>UI Designer - Frontend Developer</h4>
+            <a href="CV_Marsha.pdf" class="btn">Download CV</a>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="background.jpg" alt="">
+        </div>
+
+        <div class="about-text">
+            <h2>About Me</h2>
+            <h5>ALLOW ME TO INTRODUCE <span>MYSELF</span></h5>
+            <p>Halo! nama saya Marsha Diva Nathania, biasa dipanggil Acha. Saya lahir di Kebumen, tanggal 04 Maret 2007. Saya adalah seorang siswi pada jurusan Rekayasa Perangkat Lunak di SMK Plus Pelita Nusantara.</p>
+            <p>Awal mula ketertarikan saya untuk menekuni bidang ini adalah karena perkembangan zaman, saat ini ilmu teknologi sudah semakin canggih dan maju sedangkan di Indonesia untuk tenaga kerja di bidang ini masih bisa dibilang sangat kurang.</p>
+            <a href="#" class="btn">Hire Me</a>
+        </div>
+    </section>
+
+    <!-- services section -->
+    <section class="service" id="service">
+        <div class="text-center">
+            <h2>My Skills</h2>
+            <h4>Work hard in silence, let your success be your noise.</h4>
+        </div>
+
+        <div class="service-item">
+            <div class="service-box">
+                <i class='bx bx-mobile-alt'></i>
+                <h3>Web Design</h3>
+                <p>Web design is normally used to describe the design process relating to the front-end (client side) design of a website including writing markup.</p>
+                <a href="#" class="s-btnn">Read More</a>
+            </div>
+
+            <div class="service-box">
+                <i class='bx bx-signal-5'></i>
+                <h3>Web Development</h3>
+                <p>Web development is the work involved in developing a website for the Internet (World Wide Web) or an Intranet (a private network).</p>
+                <a href="#" class="s-btnn">Read More</a>
+            </div>
+
+            <div class="service-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Programming</h3>
+                <p>Programming is the process of performing a particular computation usually by designing and building an executable computer program.</p>
+                <a href="#" class="s-btnn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section -->
+    <section class="portfolio" id="portfolio">
+        <div class="text-center">
+            <h2>My Portfolio</h2>
+            <h1>So, these are my projects</h1>
+
+            <div class="project">
+                <div class="project-image">
+                  <img src="image1.png" alt="Image 1">
+                </div>
+                <div class="project-image">
+                  <img src="image2.png" alt="Image 2">
+                </div>
+                <div class="project-image">
+                  <img src="image3.png" alt="Image 3">
+                </div>
+                <div class="project-image">
+                    <img src="image4.png" alt="Image 3">
+                </div>
+                <div class="project-image">
+                    <img src="image5.png" alt="Image 3">
+                </div>
+                <div class="project-image">
+                    <img src="image6.png" alt="Image 3">
+                </div>
+                <div class="project-image">
+                    <img src="image7.png" alt="Image 3">
+                </div>
+                <var><div class="project-image">
+                    <img src="image8.png" alt="Image 3">
+                </div></var>
+                <div class="project-image">
+                    <img src="image9.png" alt="Image 3">
+                </div>
+                <div class="project-image">
+                    <img src="image0.png" alt="Image 3">
+                </div>
+                <!-- Add more images as needed -->
+              </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <div class="left-contact">
+
+        <div class="container">
+            <form action="submit_form.php" method="post">
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+        
+              <input type="email" id="email" name="email" placeholder="Email" required>
+        
+              <textarea id="message" name="message" placeholder="Message" required></textarea>
+        
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+
+        <div class="right-contact">
+            <h2>Contact</h2>
+            <a href="#">Hire Me</a>
+            <p>Say hello. Let's talk!</p>
+        </div>
+    </section>
+
+    <!-- end section -->
+    <section class="end-section">
+        <div class="end-icons">
+            <a href="https://www.instagram.com/marshadiva_/"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="https://www.youtube.com/@marshadivanathania9922"><i class='bx bxl-youtube'></i></a>
+            <a href="https://web.whatsapp.com/"><i class='bx bxl-whatsapp-square'></i></a>
+            <a href="https://mail.google.com/mail/u/0/#settings/general"><i class='bx bxl-gmail'></i></a>
+        </div>
+
+        <p>Copyright © 2023 Marsha - All Right Reserved | Designed by Marsha</p>
+    </section>
+
+    <!-- scroll btn -->
+    <a href="#" class="scroll-bttn"><i class='bx bx-chevron-up'></i></a>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+
+
+    <!-- custom js file link -->
+    <script src="script.js"></script>
+
+</body>
+</html>
